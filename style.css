@@ -11,7 +11,8 @@ body {
 }
 
 button {
-  font-size: 7px;
+  font-size: 10px;
+  margin-left: 10px;
 }
 
 #main-content {
@@ -34,4 +35,21 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+  text-align: center;
+}
+ul {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+li::before {
+  content: "\2022";
+  margin-right: 10px;
 }
